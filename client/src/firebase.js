@@ -13,7 +13,7 @@ import { initializeApp } from "firebase/app";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   // apiKey: "AIzaSyAwYzADwsr5U0YDuuyk7Its0IapSupSx5Y",
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "algotrading-f83ea.firebaseapp.com",
   projectId: "algotrading-f83ea",
   storageBucket: "algotrading-f83ea.appspot.com",
